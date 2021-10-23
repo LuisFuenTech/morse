@@ -13,12 +13,12 @@ public:
     Morse(int pin);
     void dot();
     void dash();
+    static const int DOT_LENGTH = 250;
+    static const int DASH_LENGTH = 1000;
+    static const int DELAY = 250;
 
 private:
     int _pin;
-    const int DOT_LENGTH = 250;
-    const int DASH_LENGTH = 1000;
-    const int DELAY = 250;
 };
 
 #endif
