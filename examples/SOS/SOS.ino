@@ -20,5 +20,5 @@ void loop()
   morse.dot();
   morse.dot();
 
-  delay(3000);
+  delay(2000);
 }
